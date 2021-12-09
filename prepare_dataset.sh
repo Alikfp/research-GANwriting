@@ -1,4 +1,3 @@
 #!/bin/sh
 
-find $1 -mindepth 2 -type f -exec mv -t $1 -i '{}' +
-find $1 -type d -empty -delete
+find $1 -mindepth 2 -type f -exec mv {} 'iam_words' \;
