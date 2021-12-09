@@ -19,7 +19,7 @@ NORMAL = True
 OUTPUT_MAX_LEN = MAX_CHARS+2 # <GO>+groundtruth+<END>
 
 '''The folder of IAM word images, please change to your own one before run it!!'''
-img_base = '/home/lkang/datasets/iam_final_forms/words_from_forms/'
+img_base = '/Users/alireza/Desktop/OCR/research-GANwriting/iam_words'
 text_corpus = 'corpora_english/brown-azAZ.tr'
 
 with open(text_corpus, 'r') as _f:
