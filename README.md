@@ -29,7 +29,7 @@ The main experiments are run on [IAM](http://www.fki.inf.unibe.ch/databases/iam-
 
 ## How to train it?
 
-First download the IAM word level dataset, then execute `prepare_dataset.sh [folder of iamdb dataset]` to prepared the dataset for training.  
+First download the IAM word level dataset, then execute `prepare_dataset.sh [folder of iamdb dataset]` to prepare the dataset for training.  
 Afterwards, refer your folder in `load_data.py` (search `img_base`). 
 
 Then run the training with:
